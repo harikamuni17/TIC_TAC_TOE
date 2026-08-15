@@ -1,0 +1,40 @@
+body{
+    background-color:black;
+    text-align: center;
+}
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    padding-top: 20px;
+    color: white;
+}
+.main-box{
+    display:flex;
+    width:400px;   
+    height:340px;
+    flex-wrap: wrap;
+    margin-left: 470px;
+    margin-top: 50px;
+    gap: 10px;
+}
+.box{
+    height:100px;
+    width:100px;
+    border: 2px solid black;            
+    border-radius: 15px;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+#reset-btn{
+    border-radius: 5px;
+    background-color: ghostwhite;
+    color: darkblue;
+    margin-top: 20px;
+    height:30px;
+    width: 100px;
+}
